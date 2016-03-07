@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-02 10:40:46
+ * @version $Id$
+ */
+.u-logo-img{
+  float: left;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+
+}
+.u-logo-tit{
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    color: #e75144;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: solid #e75144 2px;
+    margin-top: 10px;
+}
+.u-logo-tit:hover{
+  color: #e75144;
+}
+
+
+.u-topnav{
+  width:1170px
+ height: 28px;
+ line-height: 28px;
+ margin: 0 auto 0 auto;
+}
+.u-topnav p{
+  margin-bottom: 0;
+}
+.u-topnav a{
+  padding: 0 4px;
+  color: #353535;
+  font-weight: bold;
+}
+.u-header{
+  padding: 0.5em 0;
+}
+.u-navber-red{
+  background-color: #e75144;
+  margin-bottom: 0px;
+
+}
+.u-navber-red .navbar-nav>li>a{
+  color: #fff;
+  font-size:18px;
+}
+.u-navber-red .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+color: #fff;
+background-color: #dc382a;
+}
+.u-navber-red .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+color: #fff;
+background-color: #dc382a;
+}
+.u-navber-red .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  color: #fff;
+background-color: #dc382a;
+}
+.u-navber-red .navbar-collapse{
+  padding-right:0;
+  padding-left:0;
+}
+.carousel-indicators0{
+  bottom: 0 !important;
+}
+.u-banner-page{
+    width: 30px;
+    height: 60px;
+    background-color: #000;
+    top: 50%;
+    margin-top: -30px;
+}
+.u-search-btn{
+    background-color: #E75144;
+    color: #fff;
+    border-color: #DC382A;
+}
+.u-search-btn:hover {
+    color: #fff;
+    background-color: #DC382A;
+    border-color: #DC382A;
+}
+
+.u-column-tit{
+  border-bottom: #E75144 solid 2px;
+}
+.u-column-tit span{
+  display: inline-block;
+  padding: 4px 6px;
+  background: #E75144;
+  color: #fff;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.u-column-tit a{
+  font-size: 14px;
+  display: inline-block;
+  padding: 4px 6px;
+  color: #E75144;
+}
+.u-column-tit1{
+  margin: 4px auto 0 auto;
+  color: #fff;
+  padding: 8px 6px;
+  background-color: #E75144;
+}
+.u-column-box{
+  margin-bottom: 14px;
+  border: #E75144 solid 1px;
+}
+
+
+.u-article-list{
+
+}
+.u-article-list ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.u-article-list li{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-bottom: dashed 1px #ddd;
+  color: #575353;
+  font-weight: 500;
+  background: url(../images/icon-dots.png) center left no-repeat;
+}
+.u-article-list li a{
+  font-size: 14px;
+  font-weight: 500;
+  color: #575353;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  max-width: 75%;
+  min-width: 200px;
+  display: inline-block;
+}
+.u-article-list li a:hover{
+ color: #E75144;
+}
+
+#u-expert-box .carousel-control.left{
+ background:rgba(0,0,0,.6);
+ width: 30px;
+ height: 60px;
+ top: 50%;
+  margin-top: -30px;
+}
+#u-expert-box .carousel-control.right{
+ background:rgba(0,0,0,.6);
+ width: 30px;
+ height: 60px;
+ top: 50%;
+  margin-top: -30px;
+}
+.u-expert-img{
+  text-align: center;
+  position: relative;
+}
+.u-expert-img:hover p{
+  background:rgba(231, 81, 68, 1);
+}
+.u-expert-img img{
+  width: 100%;
+}
+.u-expert-img p{
+  height: 26px;
+  line-height: 26px;
+  background:rgba(231, 81, 68, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+/* sitemap*/
+.u-sitemap{
+  background:#e0e0e0;
+  margin-top: 30px;
+}
+.u-sitemap h2{
+  color: #302f2f;
+  font-weight: bold;
+}
+.u-sitemap-link{
+  padding-bottom: 28px;
+}
+.u-sitemap-link a{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #302f2f;
+  padding:0 5px;
+  margin:0 0 3px 0;
+  border-right: solid 2px #302f2f;
+}
+.u-sitemap-link a:hover{
+  color: #dc382a;
+}
+
+/* fooder*/
+.u-fooder{
+  padding: 4em 0;
+  background: #797878;
+}
+.u-fooder p{
+  font-size: 18px;
+  color: #302f2f;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* articlelist page */
+.u-top-banner{
+  display: block;
+  width: 100%;
+  height:200px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.u-site-map{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  border-bottom:4px solid #e75144;
+}
+.u-site-map a{
+  color: #333;
+}
+
+.u-article-list{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+}
+
+.u-link{
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+  border-bottom: #ddd dashed 1px;
+}
+.u-article-list .u-aricle-tit{
+  margin: 0 auto 10px auto;
+}
+.u-aricle-tit a{
+  color: #333;
+}
+.u-article-intro{
+  padding: 1px 0;
+  background:#e0e0e0;
+  margin-bottom: 10px;
+}
+.u-article-info{
+  padding:0 20px;
+  font-size: 14px;
+  color: #000;
+  line-height: 150%;
+}
+.u-next-page{
+  margin-bottom: 30px;
+}
+.u-next-page a{
+  color: #000;
+}
+/*page*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #E75144;
+    border-color: #DC382A;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #E75144;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+    color: #DC382A;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+
+
+/*u-expertInfo-tit*/
+.u-expertInfo-tit{
+  padding-left: 38px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  background: url(../images/icon-expert-tit.png) left center no-repeat;
+}
+.u-expertInfo-text{
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #000;
+  line-height: 150%;
+}
